@@ -34,6 +34,7 @@ body {
     }
   }
 }
+
 .events-none {
   pointer-events: none;
 }
@@ -77,5 +78,18 @@ strong {
   flex-shrink: 0;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@import "./_components/container";
 @import "./_components/header";
 @import "./_components/footer";
+@import "./_components/nav";
