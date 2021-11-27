@@ -89,7 +89,9 @@ a {
   color: black;
 }
 
-@import "./_components/container";
-@import "./_components/header";
-@import "./_components/footer";
+@import "./_layout/container";
+@import "./_layout/header";
+@import "./_layout/footer";
+
+@import "./_components/button";
 @import "./_components/nav";
