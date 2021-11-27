@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,14 +14,20 @@
   </head>
   <body class="page-body">
     <header class="header">
-      <div class="logo">
-        <img src="./img/icon/logo.png" alt="logo" width="41" height="41" />
-        <span> Trafalgar </span>
-      </div>
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a class="link nav__link" href="#"> Home</a>
+            <a class="link nav__link nav__link--logo" href="/">
+              <img
+                src="./img/icon/logo.png"
+                alt="logo"
+                width="160"
+                height="41"
+              />
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="link nav__link nav__link--active" href="#"> Home</a>
           </li>
           <li class="nav__item">
             <a class="link nav__link" href="#"> Find a doctor</a>
@@ -40,117 +46,109 @@
     </header>
     <main class="main">
       <section class="virtual-healthcare section">
-        <div class="virtual-healhtcare__text">
-          <h1 class="virtual-healthcare__title">
-            Virtual healthcare <br />
-            for you
-          </h1>
-          <p class="virtual-healhtcare__span"></p>
-            Trafalgar provides progressive, and affordable healthcare,
-            accessible on mobile and online for everyone
-          </p>
+        <h1 class="virtual-healthcare__title section__title">
+          Virtual healthcare <br />
+          for you
+        </h1>
+        <p class="virtual-healhtcare__text section__text">
+          Trafalgar provides progressive, and affordable healthcare, accessible
+          on mobile and online for everyone
+        </p>
 
-          <a class="link button" href="#"> Consult today </a>
-        </div>
+        <a class="virtual-healhtcare__button button button--filled" href="#">
+          Consult today
+        </a>
       </section>
 
       <section class="services section">
-        <div class="our-services">
-          <h2 class="section-title">Our services</h2>
-          <span class="our-services__text main-text">
+          <h2 class="section__title servises__title">Our services</h2>
+          <p class="service__text section__text">
             We provide to you the best choiches for you. Adjust it to your
             health needs and make sure your undergo treatment with our highly
             qualified doctors you can consult with us which type of service is
             suitable for your health
-          </span>
-        </div>
-        <div class="services__options">
-          <div class="card search-doctor">
-            <img src="./img/icon/search-doctor.png" alt="search-doctor" />
-            <div class="card__text">
-              <h3 class="card__title">Search doctor</h3>
-              <span class="card__info text">
+          </p>
+
+        <div class="services__card__list card__list card__list--servise">
+          <div class="card service__card">
+            <img class="card__img" src="./img/icon/search-doctor.png" alt="search-doctor" />
+              <h3 class="card__title  services__card__title">Search doctor</h3>
+              <p class="service__card__text card__text">
                 Choose your doctor from thousands of specialist, general, and
                 trusted hospitals
-              </span>
-            </div>
+              </p>
           </div>
-          <div class="card online-pharmacy">
-            <img src="./img/icon/online-pharmacy.png" alt="online-pharmacy" />
-            <div class="card__text">
-              <h3 class="card__title">Online pharmacy</h3>
-              <span class="card__info span">
-                Buy your medicines with our mobile application with a simple
-                delivery system
-              </span>
+
+          <div class="services__card__list card__list card__list--servise">
+            <div class="card service__card">
+              <img class="card__img" src="./img/icon/online-pharmacy.png" alt="online-pharmacy" />
+                <h3 class="card__title  services__card__title">Online pharmacy</h3>
+                <p class="service__card__text card__text">
+                  Buy  your medicines with our mobile application with a simple delivery system
+                </p>
             </div>
-          </div>
-          <div class="card Consultation">
-            <img src="./img/icon/consultation.png" alt="Consultation" />
-            <div class="card-text">
-              <h3 class="card__title">Consultation</h3>
-              <span class="card_info span">
-                Free consultation with our trusted doctors and get the best
-                recomendations
-              </span>
-            </div>
-          </div>
-          <div class="card Details-info">
-            <img src="./img/icon/details-info.png" alt="search-doctor" />
-            <div class="card-text">
-              <h3 class="card__title">Details info</h3>
-              <span class="card__info text">
-                Free consultation with our trusted doctors and get the best
-                recomendations
-              </span>
-            </div>
-          </div>
-          <div class="card emergency-care">
-            <img src="./img/icon/emergency-care.png" alt="emergency-care" />
-            <div class="card-text">
-              <h3 class="card__title">Emergency care</h3>
-              <span class="card__info text">
-                You can get 24/7 urgent care for yourself or your children and
-                your lovely family
-              </span>
-            </div>
-          </div>
-          <div class="card tracking">
-            <img src="./img/icon/tracking.png" alt="Tracking" />
-            <div class="card-text">
-              <h3 class="card__title">Tracking</h3>
-              <span class="card__info span">
-                Track and save your medical history and health data
-              </span>
-            </div>
-          </div>
-        </div>
-        <div class="but">
-          <a class="button" href="#">Learn more</a>
-        </div>
-      </section>
+
+            <div class="services__card__list card__list card__list--servise">
+              <div class="card service__card">
+                <img class="card__img" src="./img/icon/consultation.png" alt="Consultation" />
+                  <h3 class="card__title  services__card__title">Consultation</h3>
+                  <p class="service__card__text card__text">
+                    Free consultation with our trusted doctors and get the best recomendations
+                  </p>
+              </div>
+
+              <div class="services__card__list card__list card__list--servise">
+                <div class="card service__card">
+                  <img class="card__img" src="./img/icon/details-info.png" alt="details-info" />
+                    <h3 class="card__title  services__card__title">Details info</h3>
+                    <p class="service__card__text card__text">
+                      Free consultation with our trusted doctors and get the best recomendations
+                    </p>
+                </div>
+
+                <div class="services__card__list card__list card__list--servise">
+                  <div class="card service__card">
+                    <img class="card__img" src="./img/icon/emergency-care.png" alt="Emergency care" />
+                      <h3 class="card__title  services__card__title">Emergency care</h3>
+                      <p class="service__card__text card__text">
+                        You can get 24/7 urgent care for yourself or your children and your
+                        lovely family
+                      </p>
+                  </div>
+
+                  <div class="services__card__list card__list card__list--servise">
+                    <div class="card service__card">
+                      <img class="card__img" src="./img/icon/tracking.png" alt="Tracking" />
+                        <h3 class="card__title  services__card__title">Tracking</h3>
+                        <p class="service__card__text card__text">
+                          Track and save your medical history and health data 
+                        </p>
+                    </div>
+</div>
+ <a class="button servises__button" href="#">Learn more</a>
+</section>
 
       <section class="healthcare-providers section">
-        <h2 class="section-title">Leading healthcare providers</h2>
-        <p class="healthcare-providers__text">
+        <h2 class="section-title healthcare-providers__title ">Leading healthcare providers</h2>
+        <p class="healthcare-providers__text section__text">
           Trafalgar provides progressive, and affordable healthcare, accessible
           on mobile and online for everyone. To us, it’s not just work. We take
           pride in the solutions we deliver
         </p>
-        <a href="#">
-          Learn more <img src="./img/icon/Vector.png" alt="arrow-down"
-        /></a>
+        <a href="#" class="button healthcare__button">
+          Learn more 
+       </a>
       </section>
 
       <section class="download section">
-        <h2 class="section-title">Download our mobile apps</h2>
-        <p class="download__text">
+        <h2 class="section__title download__title">Download our mobile apps</h2>
+        <p class="download__text section__text">
           Our dedicated patient engagement app and web portal allow you to
           access information instantaneously (no tedeous form, long calls, or
           administrative hassle) and securely
         </p>
-        <a href="#">
-          Download <img src="./img/icon/Vector.png" alt="arrow-down"
+        <a href="#" class="button download__button">
+          Download <img class="vector" src="./img/icon/Vector.png" alt="arrow-down"
         /></a>
       </section>
 
@@ -160,7 +158,7 @@
         </h2>
         <div class="review__message">
           <div class="review__profile">
-            <img src="./img/icon/men.png" alt="men" width="141" height="141" />
+            <img class="profile__photo" src="./img/icon/men.png" alt="men" width="141" height="141" />
             <div class="profile__name">
               <span class="name">Edward Newgate</span>
               <span class="profession">Founder Circle</span>
@@ -187,7 +185,11 @@
             <button class="slider__pagin">
               <img src="./img/icon/Ellipse-n.png" alt="Ellipse-n" />
             </button>
-            <button class="slider__control slider__control--right slider__control--active">
+            <button
+              class="
+                slider__control slider__control--right slider__control--active
+              "
+            >
               <img src="./img/icon/right.png" alt="right" />
             </button>
           </div>
@@ -195,10 +197,10 @@
       </section>
 
       <section class="articles">
-        <h2 class="section__title">Check out our latest article</h2>
+        <h2 class="section__title articles__title">Check out our latest article</h2>
         <div class="articles__card-list">
           <div class="card articles__card">
-            <img
+            <img class="articles__photo"
               src="./img/photos/desies-detection.png"
               alt="desies-detection"
             />
@@ -213,18 +215,18 @@
             </div>
             <a href="#"
               >Read more
-              <img
+              <img class="articles__vector"
                 src="./img/icon/Vector.png"
                 alt="Vector"
                 width="14"
                 height="9"
             /></a>
           </div>
-        </div>
+       
 
-        <div class="articles__card-list">
+        
           <div class="card articles__card">
-            <img
+            <img class="articles__photo"
               src="./img/photos/herban-medicines.png"
               alt="herban-medicines"
             />
@@ -239,7 +241,7 @@
             </div>
             <a href="#"
               >Read more
-              <img
+              <img class="articles__vector"
                 src="./img/icon/Vector.png"
                 alt="Vector"
                 width="14"
@@ -248,9 +250,9 @@
           </div>
         </div>
 
-        <div class="articles__card-list">
+       
           <div class="card articles__card">
-            <img src="./img/photos/natural-care.png" alt="natural-care" />
+            <img class="articles__photo" src="./img/photos/natural-care.png" alt="natural-care" />
             <div class="articles__card-text">
               <span class="articles_card_title">
                 Natural care for healthy facial skin</span
@@ -262,7 +264,7 @@
             </div>
             <a href="#"
               >Read more
-              <img
+              <img class="articles__vector"
                 src="./img/icon/Vector.png"
                 alt="Vector"
                 width="14"
@@ -270,6 +272,7 @@
             /></a>
           </div>
         </div>
+      </div>
         <a class="button" href="#"> View all</a>
       </section>
     </main>
@@ -287,8 +290,8 @@
           ©Trafalgar PTY LTD 2020. All rights reserved
         </span>
       </div>
-      <div class="footer-company">
-        <span class="footer-title">Company </span>
+      <div class="footer__company">
+        <span class="footer__title">Company </span>
         <ul class="footer__list">
           <li class="footer__list-item"><a href="#">About</a></li>
           <li class="footer__list-item"><a href="#">Testimonials</a></li>
@@ -297,8 +300,8 @@
         </ul>
       </div>
 
-      <div class="footer-region">
-        <span class="footer-title">Region </span>
+      <div class="footer__region">
+        <span class="footer__title">Region </span>
         <ul class="footer__list">
           <li class="footer__list-item"><a href="#">Indonesia</a></li>
           <li class="footer__list-item"><a href="#">Singapore</a></li>
@@ -307,8 +310,8 @@
         </ul>
       </div>
 
-      <div class="footer-help">
-        <span class="footer-title">Help </span>
+      <div class="footer__help">
+        <span class="footer__title">Help </span>
         <ul class="footer__list">
           <li class="footer__list-item"><a href="#">Help center</a></li>
           <li class="footer__list-item"><a href="#">Contact support</a></li>
