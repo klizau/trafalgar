@@ -8,7 +8,7 @@
 ::selection {
 }
 html {
-  font-size: 14px;
+  font-size: 18px;
 }
 html,
 body {
@@ -17,8 +17,8 @@ body {
 body {
   min-width: 320px;
   position: relative;
-  font-family: sans-serif;
-  overflow-x: hidden;
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
   color: black;
   display: flex;
   flex-direction: column;
@@ -33,6 +33,15 @@ body {
       border-color: green;
     }
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .events-none {
@@ -95,3 +104,4 @@ a {
 
 @import "./_components/button";
 @import "./_components/nav";
+@import "./_components/card";

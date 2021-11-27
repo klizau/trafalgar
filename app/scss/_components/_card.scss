@@ -1,0 +1,34 @@
+.services__card__list {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 350px;
+  height: 354px;
+  margin: 0 34px 34px 0;
+  border-radius: 20px;
+  box-shadow: black;
+}
+
+.card__img {
+  width: 90px;
+  height: 90px;
+  padding: 54px 221px 22px 37px;
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 0 151px 1px 37px;
+}
+
+.card__text {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 45px 46px 37px;
+}
