@@ -1,0 +1,38 @@
+.container__wrapper {
+  padding: 36px 0 123px;
+  background: url("../../img/illustration/download.png") right center / contain
+    no-repeat;
+}
+
+.download__title,
+.download__text {
+  width: 420px;
+  padding-right: 71px;
+}
+
+.download__title {
+  font-size: 36px;
+  margin-bottom: 63px;
+  position: relative;
+}
+
+.download__title::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  border: 2px solid #000;
+  top: 120px;
+  left: 0;
+}
+
+.download__text {
+  color: #7d7987;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.download__vector {
+  transform: rotate(90deg);
+  padding-bottom: 15px;
+}
