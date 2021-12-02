@@ -1,0 +1,84 @@
+.review__message {
+  background: linear-gradient(to left top, #67c3f3, #5a98f2);
+  padding: 64px 141px;
+  border-radius: 24px;
+}
+
+.review__title {
+  position: relative;
+  width: auto;
+  padding-bottom: 104px;
+  font-size: 36px;
+  color: #fff;
+  margin-left: 200px;
+}
+
+.review__title::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  border: 2px solid white;
+  top: 75px;
+  left: 250px;
+}
+
+.review__message__card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.review__profile {
+  display: grid;
+  grid-template-columns: 141px auto;
+  align-items: center;
+}
+
+.profile__name {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.name {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.profession {
+  color: white;
+  font-size: 18px;
+}
+
+.review__text {
+  color: white;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.slidebar {
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
+  align-items: center;
+}
+
+.slider__pagin,
+.slider__control {
+  border: none;
+  background-color: transparent;
+}
+
+.slider__pagin {
+  padding: 9px;
+}
+
+.slider__control {
+  padding-right: 90px;
+  padding-left: 90px;
+}
+
+.slider__control--left {
+  transform: rotate(180deg);
+}
