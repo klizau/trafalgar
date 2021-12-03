@@ -71,12 +71,21 @@
 }
 
 .slider__pagin {
-  padding: 9px;
+  padding: 7px;
+  margin: 8px;
+  border-radius: 50%;
+  background-color: rgba(#5a98f2, 0.5);
+  cursor: pointer;
+}
+
+.slider__pagin--selected {
+  background-color: #5a98f2;
 }
 
 .slider__control {
   padding-right: 90px;
   padding-left: 90px;
+  cursor: pointer;
 }
 
 .slider__control--left {
