@@ -8,7 +8,7 @@
 ::selection {
 }
 html {
-  font-size: 14px;
+  font-size: 18px;
 }
 html,
 body {
@@ -17,8 +17,8 @@ body {
 body {
   min-width: 320px;
   position: relative;
-  font-family: sans-serif;
-  overflow-x: hidden;
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
   color: black;
   display: flex;
   flex-direction: column;
@@ -34,6 +34,16 @@ body {
     }
   }
 }
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .events-none {
   pointer-events: none;
 }
@@ -77,5 +87,29 @@ strong {
   flex-shrink: 0;
 }
 
-@import "./_components/header";
-@import "./_components/footer";
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@import "./_layout/container";
+@import "./_layout/header";
+@import "./_layout/footer";
+
+@import "./_sections/virtual-healthcare";
+@import "./_sections/services";
+@import "./_sections/healthcare-providers";
+@import "./_sections/download";
+@import "./_sections/review";
+@import "./_sections/articles";
+
+@import "./_components/button";
+@import "./_components/nav";
+@import "./_components/card";
+@import "./_components/component";

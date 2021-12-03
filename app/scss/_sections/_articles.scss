@@ -1,0 +1,50 @@
+.articles__title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 107px;
+}
+
+.articles__card-list {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 120px;
+}
+
+.articles__photo {
+  position: relative;
+}
+
+.articles__card__text {
+  margin: 24px 66px 35px 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.articles__card__title {
+  font-size: 21px;
+  font-weight: bold;
+  top: 50%;
+  margin-bottom: 12px;
+}
+
+.articles__card__span {
+  font-size: 16px;
+  font-weight: 300;
+  color: #7d7987;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.link {
+  color: #4089ed;
+  font-size: 17px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.articles__button {
+  margin: 0 auto;
+}

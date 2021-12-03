@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,314 +14,412 @@
   </head>
   <body class="page-body">
     <header class="header">
-      <div class="logo">
-        <img src="./img/icon/logo.png" alt="logo" width="41" height="41" />
-        <span> Trafalgar </span>
+      <div class="container">
+        <nav class="nav header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="link nav__link nav__link--logo" href="/">
+                <img
+                  src="./img/icon/logo.png"
+                  alt="logo"
+                  width="160"
+                  height="41"
+                />
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="link nav__link nav__link--active" href="#"> Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="link nav__link" href="#"> Find a doctor</a>
+            </li>
+            <li class="nav__item">
+              <a class="link nav__link" href="#"> Apps</a>
+            </li>
+            <li class="nav__item">
+              <a class="link nav__link" href="#"> Testimonials</a>
+            </li>
+            <li class="nav__item">
+              <a class="link nav__link" href="#"> About us</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav class="nav">
-        <ul class="nav_list">
-          <li class="nav_item"><a class="link" href="#"> Home</a></li>
-          <li class="nav_item"><a class="link" href="#"> Find a doctor</a></li>
-          <li class="nav_item"><a class="link" href="#"> Apps</a></li>
-          <li class="nav_item"><a class="link" href="#"> Testimonials</a></li>
-          <li class="nav_item"><a class="link" href="#"> About us</a></li>
-        </ul>
-      </nav>
     </header>
     <main class="main">
-      <section class="virtual-healthcare">
-        <div class="virtual-healhtcare_text">
-          <h1 class="virtual-healthcare_title">
-            Virtual healthcare <br />
-            for you
-          </h1>
-          <span class="virtual-healhtcare_span"
-            >Trafalgar provides progressive, and affordable healthcare,
-            accessible on mobile and online for everyone</span
-          >
-          <button class="virtual-healhtcare_button">
-            <a class="link" href="#"> Consult today </a>
-          </button>
-        </div>
-        <div class="virtual-healhtcare_illustration">
-          <img
-            src="./img/illustration/explanation-1.png"
-            alt="virtual-healhtcare"
-          />
+      <section class="virtual-healthcare section">
+        <div class="container">
+          <div class="virtual-healthcare__wrapper">
+            <h1 class="virtual-healthcare__title section__title">
+              Virtual healthcare <br />
+              for you
+            </h1>
+            <p class="virtual-healhtcare__text section__text">
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone
+            </p>
+
+            <a
+              class="virtual-healhtcare__button button button--filled"
+              href="#"
+            >
+              Consult today
+            </a>
+          </div>
         </div>
       </section>
 
-      <section class="services">
-        <div class="our-services">
-          <h2 class="section-title">Our services</h2>
-          <span class="our-services_span main-span">
+      <section class="services section">
+        <div class="container">
+          <h2 class="section__title servises__title">Our services</h2>
+          <p class="service__text section__text">
             We provide to you the best choiches for you. Adjust it to your
-            health needs and make sure your undergo treatment with our highly
-            qualified doctors you can consult with us which type of service is
-            suitable for your health
-          </span>
-        </div>
-        <div class="services_options">
-          <div class="card search-doctor">
-            <img src="./img/icon/search-doctor.png" alt="search-doctor" />
-            <div class="card-span">
-              <h3 class="card_title">Search doctor</h3>
-              <span class="card_info span">
+            health needs and make sure your undergo treatment <br />
+            with our highly qualified doctors you can consult with us which type
+            of service is suitable for your health
+          </p>
+
+          <div class="services__card__list card__list card__list--servise">
+            <div class="card service__card">
+              <img
+                class="card__img"
+                src="./img/icon/search-doctor.png"
+                alt="search-doctor"
+              />
+              <h3 class="card__title services__card__title">Search doctor</h3>
+              <p class="service__card__text card__text">
                 Choose your doctor from thousands of specialist, general, and
                 trusted hospitals
-              </span>
+              </p>
             </div>
-          </div>
-          <div class="card online-pharmacy">
-            <img src="./img/icon/online-pharmacy.png" alt="online-pharmacy" />
-            <div class="card-span">
-              <h3 class="card_title">Online pharmacy</h3>
-              <span class="card_info span">
+
+            <div class="card service__card">
+              <img
+                class="card__img"
+                src="./img/icon/online-pharmacy.png"
+                alt="online-pharmacy"
+              />
+              <h3 class="card__title services__card__title">Online pharmacy</h3>
+              <p class="service__card__text card__text">
                 Buy your medicines with our mobile application with a simple
                 delivery system
-              </span>
+              </p>
             </div>
-          </div>
-          <div class="card Consultation">
-            <img src="./img/icon/consultation.png" alt="Consultation" />
-            <div class="card-span">
-              <h3 class="card_title">Consultation</h3>
-              <span class="card_info span">
+
+            <div class="card service__card">
+              <img
+                class="card__img"
+                src="./img/icon/consultation.png"
+                alt="Consultation"
+              />
+              <h3 class="card__title services__card__title">Consultation</h3>
+              <p class="service__card__text card__text">
                 Free consultation with our trusted doctors and get the best
                 recomendations
-              </span>
+              </p>
             </div>
-          </div>
-          <div class="card Details-info">
-            <img src="./img/icon/details-info.png" alt="search-doctor" />
-            <div class="card-span">
-              <h3 class="card_title">Details info</h3>
-              <span class="card_info span">
+
+            <div class="card service__card">
+              <img
+                class="card__img"
+                src="./img/icon/details-info.png"
+                alt="details-info"
+              />
+              <h3 class="card__title services__card__title">Details info</h3>
+              <p class="service__card__text card__text">
                 Free consultation with our trusted doctors and get the best
                 recomendations
-              </span>
+              </p>
             </div>
-          </div>
-          <div class="card emergency-care">
-            <img src="./img/icon/emergency-care.png" alt="emergency-care" />
-            <div class="card-span">
-              <h3 class="card_title">Emergency care</h3>
-              <span class="card_info span">
+
+            <div class="card service__card">
+              <img
+                class="card__img"
+                src="./img/icon/emergency-care.png"
+                alt="Emergency care"
+              />
+              <h3 class="card__title services__card__title">Emergency care</h3>
+              <p class="service__card__text card__text">
                 You can get 24/7 urgent care for yourself or your children and
                 your lovely family
-              </span>
+              </p>
             </div>
-          </div>
-          <div class="card Tracking">
-            <img src="./img/icon/tracking.png" alt="Tracking" />
-            <div class="card-span">
-              <h3 class="card_title">Tracking</h3>
-              <span class="card_info span">
+
+            <div class="card service__card">
+              <img
+                class="card__img"
+                src="./img/icon/tracking.png"
+                alt="Tracking"
+              />
+              <h3 class="card__title services__card__title">Tracking</h3>
+              <p class="service__card__text card__text">
                 Track and save your medical history and health data
-              </span>
+              </p>
+            </div>
+          </div>
+
+          <a class="button servises__button" href="#">Learn more</a>
+        </div>
+      </section>
+
+      <section class="healthcare-providers section">
+        <div class="container">
+          <div class="healthcare-providers__wrapper">
+            <div class="text__wrapper">
+              <h2 class="section-title healthcare-providers__title">
+                Leading healthcare providers
+              </h2>
+              <p class="healthcare-providers__text section__text">
+                Trafalgar provides progressive, and affordable healthcare,
+                accessible on mobile and online for everyone. To us, it’s not
+                just work. We take pride in the solutions we deliver
+              </p>
+              <a href="#" class="button healthcare__button"> Learn more </a>
             </div>
           </div>
         </div>
-        <div class="but">
-          <button class="button">Learn more</button>
-        </div>
       </section>
 
-      <section class="providers">
-        <div class="providers_img">
-          <img
-            src="./img/illustration/healthcare-providers.png"
-            alt="healthcare-providers"
-          />
-        </div>
-        <div class="providers_text">
-          <h2 class="section-title">
-            Leading healthcare <br />
-            providers
-          </h2>
-          <span class="span providers_span"
-            >Trafalgar provides progressive, and affordable healthcare,
-            accessible on mobile and online for everyone. To us, it’s not just
-            work. We take pride in the solutions we deliver
-          </span>
-          <button class="button">Learn more</button>
-        </div>
-      </section>
-
-      <section class="Download">
-        <div class="download_text"></div>
-        <h2 class="section-title">Download our mobile apps</h2>
-        <span class="span download_span"
-          >Our dedicated patient engagement app and web portal allow you to
-          access information instantaneously (no tedeous form, long calls, or
-          administrative hassle) and securely</span
-        >
-        <div class="download_img">
-          <img src="./img/illustration/download.png" alt="download" />
-        </div>
-      </section>
-
-      <section class="review review_card slider">
-        <h2 class="section_title review_title">What our customer are saying</h2>
-        <div class="review_message">
-          <div class="review_profile">
-            <img src="./img/icon/men.png" alt="men" width="141" height="141" />
-            <div class="profile_name">
-              <span class="name">Edward Newgate</span>
-              <span class="profession">Founder Circle</span>
-            </div>
+      <section class="download section">
+        <div class="container">
+          <div class="container__wrapper">
+            <h2 class="section__title download__title">
+              Download our mobile apps
+            </h2>
+            <p class="download__text section__text">
+              Our dedicated patient engagement app and web portal allow you to
+              access information instantaneously (no tedeous form, long calls,
+              or administrative hassle) and securely
+            </p>
+            <a href="#" class="button download__button">
+              Download
+              <img
+                class="download__vector"
+                src="./img/icon/Vector.png"
+                alt="arrow-down"
+            /></a>
           </div>
-          <div class="review_span">
-            “Our dedicated patient engagement app and web portal allow you to
-            access information instantaneously (no tedeous form, long calls, or
-            administrative hassle) and securely”
+        </div>
+      </section>
+
+      <section class="review review__card slider section">
+        <div class="container">
+          <div class="review__message">
+            <h2 class="section__title review__title">
+              What our customer are saying
+            </h2>
+            <div class="review__message__card">
+              <div class="review__profile">
+                <img
+                  class="profile__photo"
+                  src="./img/icon/men.png"
+                  alt="men"
+                  width="141"
+                  height="141"
+                />
+                <div class="profile__name">
+                  <span class="name">Edward Newgate</span>
+                  <span class="profession">Founder Circle</span>
+                </div>
+              </div>
+              <p class="review__text">
+                “Our dedicated patient engagement app and web portal allow you
+                to access information instantaneously (no tedeous form, long
+                calls, or administrative hassle) and securely”
+              </p>
+            </div>
           </div>
           <div class="slidebar">
-            <button class="sleder_but">
-              <img src="./img/icon/left.png" alt="left" />
+            <button class="slider__control slider__control--left">
+              <img src="./img/icon/right.png" alt="right" />
             </button>
-            <button class="sleder_but">
+            <button class="slider__pagin">
               <img src="./img/icon/Ellipse.png" alt="Ellipse" />
             </button>
-            <button class="sleder_but">
+            <button class="slider__pagin">
               <img src="./img/icon/Ellipse-n.png" alt="Ellipse-n" />
             </button>
-            <button class="sleder_but">
+            <button class="slider__pagin">
               <img src="./img/icon/Ellipse-n.png" alt="Ellipse-n" />
             </button>
-            <button class="sleder_but">
+            <button class="slider__pagin">
               <img src="./img/icon/Ellipse-n.png" alt="Ellipse-n" />
             </button>
-            <button class="sleder_but">
+            <button
+              class="
+                slider__control slider__control--right slider__control--active
+              "
+            >
               <img src="./img/icon/right.png" alt="right" />
             </button>
           </div>
         </div>
       </section>
 
-      <section class="articles">
-        <h2 class="section_title">Check out our latest article</h2>
-        <div class="articles__card-list">
-          <div class="card articles_card">
-            <img
-              src="./img/photos/desies-detection.png"
-              alt="desies-detection"
-            />
-            <div class="articles_card_text">
-              <span class="articles_card_title">
-                Disease detection, check up in the laboratory</span
-              >
-              <span class="articles_card_span"
-                >In this case, the role of the health laboratory is very
-                important to do a disease detection...</span
-              >
-            </div>
-            <a href="#"
-              >Read more
+      <section class="articles section">
+        <div class="container">
+          <h2 class="section__title articles__title">
+            Check out our latest article
+          </h2>
+          <div class="articles__card-list card__list">
+            <div class="card articles__card">
               <img
-                src="./img/icon/Vector.png"
-                alt="Vector"
-                width="14"
-                height="9"
-            /></a>
-          </div>
-        </div>
+                class="articles__photo"
+                src="./img/photos/desies-detection.png"
+                alt="desies-detection"
+              />
+              <div class="articles__card__text">
+                <span class="articles__card__title">
+                  Disease detection, check up in the laboratory</span
+                >
+                <span class="articles__card__span"
+                  >In this case, the role of the health laboratory is very
+                  important to do a disease detection...</span
+                >
 
-        <div class="articles__card-list">
-          <div class="card articles_card">
-            <img
-              src="./img/photos/herban-medicines.png"
-              alt="herban-medicines"
-            />
-            <div class="articles_card_text">
-              <span class="articles_card_title">
-                Herbal medicines that are safe for consumption</span
-              >
-              <span class="articles_card_span"
-                >Herbal medicine is very widely used at this time because of its
-                very good for your health...</span
-              >
+                <a href="#" class="link"
+                  >Read more
+                  <img
+                    class="articles__vector"
+                    src="./img/icon/Vector.png"
+                    alt="Vector"
+                    width="14"
+                    height="9"
+                /></a>
+              </div>
             </div>
-            <a href="#"
-              >Read more
-              <img
-                src="./img/icon/Vector.png"
-                alt="Vector"
-                width="14"
-                height="9"
-            /></a>
-          </div>
-        </div>
 
-        <div class="articles__card-list">
-          <div class="card articles_card">
-            <img src="./img/photos/natural-care.png" alt="natural-care" />
-            <div class="articles_card_text">
-              <span class="articles_card_title">
-                Natural care for healthy facial skin</span
-              >
-              <span class="articles_card_span"
-                >In this case, the role of the health laboratory is very
-                important to do a disease detection...</span
-              >
-            </div>
-            <a href="#"
-              >Read more
+            <div class="card articles__card">
               <img
-                src="./img/icon/Vector.png"
-                alt="Vector"
-                width="14"
-                height="9"
-            /></a>
+                class="articles__photo"
+                src="./img/photos/herban-medicines.png"
+                alt="herban-medicines"
+              />
+              <div class="articles__card__text">
+                <span class="articles__card__title">
+                  Herbal medicines that are safe for consumption</span
+                >
+                <span class="articles__card__span"
+                  >Herbal medicine is very widely used at this time because of
+                  its very good for your health...</span
+                >
+
+                <a href="#" class="link"
+                  >Read more
+                  <img
+                    class="articles__vector"
+                    src="./img/icon/Vector.png"
+                    alt="Vector"
+                    width="14"
+                    height="9"
+                /></a>
+              </div>
+            </div>
+
+            <div class="card articles__card">
+              <img
+                class="articles__photo"
+                src="./img/photos/natural-care.png"
+                alt="natural-care"
+              />
+              <div class="articles__card__text">
+                <span class="articles__card__title">
+                  Natural care for healthy facial skin</span
+                >
+                <span class="articles__card__span"
+                  >In this case, the role of the health laboratory is very
+                  important to do a disease detection...</span
+                >
+
+                <a href="#" class="link"
+                  >Read more
+                  <img
+                    class="articles__vector"
+                    src="./img/icon/Vector.png"
+                    alt="Vector"
+                    width="14"
+                    height="9"
+                /></a>
+              </div>
+            </div>
           </div>
+
+          <a class="button articles__button" href="#"> View all</a>
         </div>
-        <button class="button"><a href="#"> View all</a></button>
       </section>
     </main>
     <footer class="footer">
-      <div class="footer_main_info">
-        <div class="footer_logo">
-          <img src="./img/icon/footrer-logo.png" alt="footer-logo" />
-          <span class="footer_logo_name">Trafalgar</span>
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__main-info">
+            <div class="footer__logo">
+              <img src="./img/icon/footrer-logo.png" alt="footer-logo" />
+              <span class="footer__logo-name">Trafalgar</span>
+            </div>
+            <p class="footer__text">
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone
+            </p>
+            <span class="footer__copy">
+              ©Trafalgar PTY LTD 2020. All rights reserved
+            </span>
+          </div>
+          <div class="footer__company">
+            <span class="footer__title">Company </span>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__list__link" href="#">About</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list__link" href="#">Testimonials</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list__link" href="#">Find a doctor</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list__link" href="#">Apps</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__region">
+            <span class="footer__title">Region </span>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__list__link" href="#">Indonesia</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list__link" href="#">Singapore</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list__link" href="#">Hongkong</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list__link" href="#">Canada</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__help">
+            <span class="footer__title">Help </span>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__list__link" href="#">Help center</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list__link" href="#">Contact support</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list__link" href="#">Instructions</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list__link" href="#">How it works</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <span class="footer_span">
-          Trafalgar provides progressive, and affordable healthcare, accessible
-          on mobile and online for everyone
-        </span>
-        <span class="footer_copy">
-          ©Trafalgar PTY LTD 2020. All rights reserved
-        </span>
-      </div>
-      <div class="footer_company">
-        <span class="footer-title">Company </span>
-        <ul class="footer_list">
-          <li class="footer_list-item"><a href="#">About</a></li>
-          <li class="footer_list-item"><a href="#">Testimonials</a></li>
-          <li class="footer_list-item"><a href="#">Find a doctor</a></li>
-          <li class="footer_list-item"><a href="#">Apps</a></li>
-        </ul>
-      </div>
-
-      <div class="footer_region">
-        <span class="footer-title">Region </span>
-        <ul class="footer_list">
-          <li class="footer_list-item"><a href="#">Indonesia</a></li>
-          <li class="footer_list-item"><a href="#">Singapore</a></li>
-          <li class="footer_list-item"><a href="#">Hongkong</a></li>
-          <li class="footer_list-item"><a href="#">Canada</a></li>
-        </ul>
-      </div>
-
-      <div class="footer_help">
-        <span class="footer-title">Help </span>
-        <ul class="footer_list">
-          <li class="footer_list-item"><a href="#">Help center</a></li>
-          <li class="footer_list-item"><a href="#">Contact support</a></li>
-          <li class="footer_list-item"><a href="#">Instructions</a></li>
-          <li class="footer_list-item"><a href="#">How it works</a></li>
-        </ul>
       </div>
     </footer>
-    <script src="js/common.min.js"></script>
+    <script src="js/scripts.min.js"></script>
   </body>
 </html>

@@ -1,0 +1,19 @@
+.button {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  width: 200px;
+  height: 56px;
+  background-color: transparent;
+  border: 2px solid #458ff6;
+  border-radius: 55px;
+  color: #458ff6;
+  font-size: 18px;
+  font-weight: bold;
+
+  &--filled {
+    background-color: #458ff6;
+    color: white;
+  }
+}

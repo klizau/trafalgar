@@ -1,0 +1,38 @@
+.healthcare-providers__wrapper {
+  background: url(./../../img/illustration/healthcare-providers.png) left center /
+    contain no-repeat;
+  padding: 57px 0 31px;
+  margin-right: 137px;
+}
+
+.text__wrapper {
+  margin-left: auto;
+  width: 40%;
+}
+
+.healthcare-providers__title,
+.healthcare-providers__text {
+  width: 481px;
+}
+
+.healthcare-providers__title {
+  font-size: 36px;
+  margin-bottom: 59px;
+  position: relative;
+}
+
+.healthcare-providers__title::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  border: 2px solid #000;
+  top: 110px;
+  left: 0;
+}
+
+.healthcare-providers__text {
+  color: #7d7987;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 37px;
+}
