@@ -1,0 +1,54 @@
+.footer {
+  color: white;
+  background: linear-gradient(to right top, #5a98f2, #67c3f3);
+  margin-top: 200px;
+  padding: 118px 230px 109px 109px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__main-info {
+  width: 390px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.footer__logo-name {
+  padding-left: 12px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer__text {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 31px;
+}
+
+.footer__copy {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.footer__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.footer__list__link {
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.footer__list-item {
+  padding-top: 20px;
+}
